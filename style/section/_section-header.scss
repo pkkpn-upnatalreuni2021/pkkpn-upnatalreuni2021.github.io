@@ -1,5 +1,4 @@
 .main-bg {
-    height: 100vh;
     @include media-breakpoint-down(sm){
         background-image: url('../images/main_background_phone.svg');
         background-position: center;
@@ -11,7 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 15% 0;
+    padding: 10% 0;
   
     h1 {
         @include media-breakpoint-down(sm){
