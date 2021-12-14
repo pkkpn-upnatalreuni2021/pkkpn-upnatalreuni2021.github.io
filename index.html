@@ -9,56 +9,59 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="body-index">
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
-    <div class="snowflake"></div>
+    <audio id="myAudio" src="/music/Have-a-Holly.mp3">
+        <p>If you are reading this, it is because your browser does not support the audio element.</p>
+    </audio>
     <section class="section-header main-bg">
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
         <div class="header-content">
             <div data-aos="fade-right" data-aos-duration="2000">
                 <h1>Perayaan Natal <br>dan Reuni 2021</h1>
@@ -67,15 +70,125 @@
                 <h1>PKKPN-UP</h1>
             </div>
             <div data-aos="zoom-in" data-aos-duration="2000">
-                <a href="undangan.html" class="btn btn-lg btn-custom float-right"><i class="fas fa-map"></i> Buka Undangan</a>
+                <a onclick="togglePlay()" class="btn btn-lg btn-custom float-right"><i class="fas fa-map"></i> Buka Undangan</a>
             </div>
         </div>
+    </section>
+    <section class="undangan" style="display: none;">
+        <section class="section-tema">
+            <div class="content">
+                <div data-aos="fade-down" data-aos-duration="2000">
+                    <h1>TEMA</h1>
+                    <hr>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="3000">
+                    <div class="card my-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Amor Dei</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-date-location">
+            <div class="content">
+                <div data-aos="fade-down" data-aos-duration="2000">
+                    <h1>TANGGAL & LOKASI</h1>
+                    <hr>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="3000">
+                    <div class="card my-card">
+                        <div class="card-body">
+                            <h4 class="card-title">Reuni</h4>
+                            <h5>"Family That Will Never End"</h5>
+                            <p>Sabtu, 18 Desember 2021</p>
+                            <p>07.30 WITA - SELESAI</p>
+                            <img src="images/maps.png" class="img-fluid img-maps" alt="">
+                            <p>Yonif Raider <br> Jl. Perintis Kemerdekaan No.KM 13</p>
+                            <a href="https://goo.gl/maps/qK5MzYHkJ7317wQQ8" class="btn btn-md btn-custom">Tampilkan Lokasi</a>
+        
+                            <hr class="hr-br">
+        
+                            <h4 class="card-title">Natal</h4>
+                            <h5>"Love Come Down"</h5>
+                            <p>Sabtu, 8 Januari 2022</p>
+                            <p>17.30 WITA - SELESAI</p>
+                            <img src="images/maps.png" class="img-fluid img-maps" alt="">
+                            <p>Hotel Myko - Beryl Ballroom Lt 6 <br> Jl. Boulevard</p>
+                            <a href="https://goo.gl/maps/DUfmJwgAYyxQsWmz9" class="btn btn-md btn-custom">Tampilkan Lokasi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-guest-book">
+            <div class="content">
+                <div data-aos="fade-down" data-aos-duration="2000">
+                    <h1>BUKU TAMU</h1>
+                    <hr>
+                </div>
+                <div data-aos="zoom-in-up d-flex justify-content-center" data-aos-duration="3000">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://forms.gle/CPPN8e4jum2uaGJv7" class="btn btn-lg my-btn mb-4">Konfirmasi Kehadiran Reuni</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up d-flex justify-content-center" data-aos-duration="3000">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://forms.gle/qD88WBi2Lq3JNrT16" class="btn btn-lg my-btn">Konfirmasi Kehadiran Natal</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-informasi">
+            <div class="content">
+                <div data-aos="fade-down" data-aos-duration="2000">
+                    <h1>INFORMASI</h1>
+                    <hr>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="3000">
+                    <div class="card my-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Protocol</h5>
+                            <p>Dalam upaya mengurangi penyebaran Covid 19 pada masa pandemi, kami harapkan kedatangan para tamu undangan agar menjalankan protokol yang berlaku.</p>
+                        </div>
+                        <div class="card-information">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="images/masker.png" alt="">
+                                    <p>Wajib Menggunakan Masker</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/distance.png" alt="">
+                                    <p>Saling Menjaga Jarak di Dalam Acara</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/salam.png" alt="">
+                                    <p>Menggunakan salam namastee sebagai ganti berjabat tangan</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/wash.png" alt="">
+                                    <p>Jaga Kebersihan dengan Mencuci Tangan atau Handsanitizer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br><br><br>
     </section>
     <script src="vendor/jquery/jquery.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+        let audio = document.getElementById("myAudio")
+        function togglePlay(){
+            audio.play()
+            $(".main-bg").hide("slow");
+            $(".main-bg").css({'background-image':'none'});
+            $(".undangan").css({'display' : 'block'});
+        }
     </script>
 </body>
 </html>

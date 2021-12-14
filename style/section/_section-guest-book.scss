@@ -19,10 +19,11 @@
         }
         .my-btn {
             @include media-breakpoint-down(sm){
-                width: 260px;
+                width: 320px;
+                height: 110px;
                 margin-top: 10%;
-                box-shadow: 0px 0px 28px 1px #FFB401;
-                font-size: 28px;
+                box-shadow: 0px 0px 28px 0.5px #FFB401;
+                font-size: 20px;
                 padding-top: 32px;
             }
             width: 1000px;

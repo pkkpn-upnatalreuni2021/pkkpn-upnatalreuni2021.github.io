@@ -1,6 +1,5 @@
 .body-index {
     font-family: 'Roboto', sans-serif;
-    background-color: #B70B0D;
     height: 100vh;
 }
 .snowflake {
@@ -37,14 +36,13 @@
     filter: blur(1px);
   }
   
-.body-undangan {
+.undangan {
     @include media-breakpoint-down(sm){
         background-image: url("../images/background_undangan_phone.svg");
     }
     font-family: 'Roboto', sans-serif;
     background-image: url("../images/bacground-undangan.svg");
     background-repeat: no-repeat;
-    height: 100%;
     background-size: cover;
     background-position: center;
 }
